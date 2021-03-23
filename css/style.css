@@ -933,7 +933,8 @@ svg:not(:root).svg-inline--fa {
     width: 100%;
     height: 100%;
 }
-.mobile_menu_container, .mobile_menu_container ul li ul{
+.mobile_menu_container,
+.mobile_menu_container.loaded ul li ul{
     -webkit-transition: all 200ms;
     -moz-transition: all 200ms;
     transition: all 200ms;

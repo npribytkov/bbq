@@ -982,7 +982,7 @@ svg:not(:root).svg-inline--fa {
 .mobile_menu_container ul li a:hover{
     background: #3b3b3b;
 }
-.mobile_menu_container ul li ul{
+.mobile_menu_container.loaded ul li ul{
     -webkit-transform: translateX(300px);
     transform: translateX(300px);
     position: absolute;

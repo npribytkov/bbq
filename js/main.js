@@ -37,7 +37,7 @@ $(document).on("click", ".mobile_menu_overlay", function(e) {
     $(".filter-block-container").removeClass("loaded");
     $(this).fadeOut(function() {
         $(".mobile_menu_container .loaded").removeClass("loaded");
-        $(".mobile_menu_container .activity").removeClass("activity");
+       // $(".mobile_menu_container .activity").removeClass("activity");
         $(".filter-block-container .loaded").removeClass("loaded");
         $(".filter-block-container .activity").removeClass("activity");
     });
